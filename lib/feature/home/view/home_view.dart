@@ -1,5 +1,5 @@
-import "package:architecture_template_v2/feature/home/view/mixin/home_view_mixin.dart";
 import "package:flutter/material.dart";
+import "package:architecture_template_v2/feature/home/view/mixin/home_view_mixin.dart";
 
 part "widget/home_app_bar.dart";
 

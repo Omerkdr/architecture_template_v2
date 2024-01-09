@@ -1,14 +1,13 @@
-import "package:flutter/material.dart";
+part of '../home_view.dart';
 
-class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const HomeAppBar({super.key});
+class _HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const _HomeAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container();
   }
 
   @override
-  // TODO: implement preferredSize
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
