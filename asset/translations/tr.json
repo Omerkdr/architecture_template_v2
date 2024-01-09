@@ -1,0 +1,22 @@
+{
+    "home":  {
+        "title": "Ana Sayfa"
+        
+    },
+
+    "general": {
+        "button": {
+            "save": "Kaydet {}"
+        },
+
+        "dialog": {
+            "title": "Versiyon",
+            "content" : "Versiyon bilgisi"
+           
+        }
+    }
+
+    
+
+    
+}
