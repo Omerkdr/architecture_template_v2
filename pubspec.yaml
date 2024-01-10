@@ -25,7 +25,8 @@ dependencies:
   # github repo can be added to
   # module can be add
 
-  #Core Depencies
+  #Core Dependencies
+
   kartal: ^3.4.4
   vexana: ^3.5.4
   equatable: ^2.0.5
@@ -33,6 +34,10 @@ dependencies:
   json_annotation: ^4.8.1
   envied: ^0.5.3
   easy_localization: ^3.0.3
+
+  #Utility Dependencies
+  easy_logger: ^0.0.2
+  logger: ^2.0.2+1
 
 # dependency_overrides:
 #   cupertino_icons: 1.0.1
