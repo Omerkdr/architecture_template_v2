@@ -6,7 +6,7 @@ final class CustomLightTheme implements CustomTheme {
   @override
   ThemeData get themeData => ThemeData(
         useMaterial3: true,
-        // fontFamily: GoogleFonts.roboto().fontFamily,
+        fontFamily: GoogleFonts.roboto().fontFamily,
         colorScheme: CustomColorScheme.lightColorScheme,
         floatingActionButtonTheme: floatingActionButtonThemeData,
       );
