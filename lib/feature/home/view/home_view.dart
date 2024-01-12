@@ -6,6 +6,8 @@ import 'package:architecture_template_v2/product/utility/constant/enums/locales.
 import 'package:easy_localization/easy_localization.dart';
 // import 'package:architecture_template_v2/feature/home/view/architecture_template_v2/product/init/product_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:gen/gen.dart';
+import 'package:kartal/kartal.dart';
 
 part 'widget/home_app_bar.dart';
 
@@ -24,6 +26,13 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          // alt modulden kullanıyosan package gen vermen gerek
+          // Assets.icons.icCode.svg(
+          //   package: 'gen',
+          // ),
+          Assets.lottie.animLottie.lottie(
+            package: 'gen',
+          ),
           ElevatedButton(
             onPressed: () {},
             child: Text(AppEnvironmentItems.baseUrl.value),
@@ -38,7 +47,7 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
             },
             child: Text(
               LocaleKeys.general_button_save,
-              style: Theme.of(context).textTheme.titleLarge,
+              style: context.general.textTheme.bodySmall,
             ).tr(
               args: ['Omer'],
             ),

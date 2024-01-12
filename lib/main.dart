@@ -19,7 +19,7 @@ class _MyApp extends StatelessWidget {
     return MaterialApp(
       theme: CustomLightTheme().themeData,
       darkTheme: CustomDarkTheme().themeData,
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.dark,
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
