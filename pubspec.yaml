@@ -44,6 +44,7 @@ dependencies:
   easy_logger: ^0.0.2
   logger: ^2.0.2+1
   kartal: ^3.4.4
+  google_fonts: ^6.1.0
 
 # dependency_overrides:
 #   cupertino_icons: 1.0.1
