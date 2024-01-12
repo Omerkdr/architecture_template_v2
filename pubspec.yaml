@@ -43,6 +43,11 @@ dependencies:
   logger: ^2.0.2+1
   kartal: ^3.4.4
   google_fonts: ^6.1.0
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.6
+
+  #Navigation
+  auto_route: ^7.8.4
 
   widgets:
     path: module/widgets
