@@ -31,6 +31,8 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
           // Assets.icons.icCode.svg(
           //   package: 'gen',
           // ),
+
+          CustomNetworkImage(),
           Assets.lottie.animLottie.lottie(
             package: 'gen',
           ),
