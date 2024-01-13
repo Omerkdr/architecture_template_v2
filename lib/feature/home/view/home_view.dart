@@ -3,6 +3,7 @@ import 'package:architecture_template_v2/product/init/config/app_environment.dar
 import 'package:architecture_template_v2/product/init/language/locale_keys.g.dart';
 import 'package:architecture_template_v2/product/navigation/app_router.dart';
 import 'package:auto_route/auto_route.dart';
+import 'package:common/common.dart';
 import 'package:easy_localization/easy_localization.dart';
 // import 'package:architecture_template_v2/feature/home/view/architecture_template_v2/product/init/product_localization.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +33,10 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
           //   package: 'gen',
           // ),
 
-          CustomNetworkImage(),
+          const CustomNetworkImage(
+            imageUrl: 'https://picsum.photos/200/300',
+            size: Size(200, 300),
+          ),
           Assets.lottie.animLottie.lottie(
             package: 'gen',
           ),
