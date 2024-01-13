@@ -28,14 +28,34 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // alt modulden kullanıyosan package gen vermen gerek
-          // Assets.icons.icCode.svg(
-          //   package: 'gen',
-          // ),
-
+          Text(''.ext.version),
+          Text(
+            'omer',
+            style: context.general.textTheme.titleLarge?.copyWith(
+              color: 'FFF0001'.ext.color,
+            ),
+          ),
+          SizedBox(
+            height: context.sized.dynamicHeight(0.4),
+          ),
+          // Future<String>().ext.toBuild(
+          //       onSuccess: onSuccess,
+          //       loadingWidget: loadingWidget,
+          //       notFoundWidget: notFoundWidget,
+          //       onError: onError,
+          //     ),
+          FloatingActionButton(
+            onPressed: () {
+              'Vakfıkebir'.ext.launchMaps();
+              CustomLinkPreview.getLinkPreviewData(
+                'https://apusteknoloji.com/',
+              );
+            },
+            child: const Icon(Icons.add),
+          ),
           const CustomNetworkImage(
             imageUrl: 'https://picsum.photos/200/300',
-            size: Size(200, 300),
+            size: Size(100, 100),
           ),
           Assets.lottie.animLottie.lottie(
             package: 'gen',
