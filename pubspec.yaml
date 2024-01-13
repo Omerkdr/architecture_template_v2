@@ -45,6 +45,7 @@ dependencies:
   google_fonts: ^6.1.0
   auto_route_generator: ^7.3.2
   build_runner: ^2.4.6
+  device_preview: ^1.1.0
 
   #Navigation
   auto_route: ^7.8.4
