@@ -31,6 +31,7 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          // BoldTextButton(onPressed: () {}, child: child),
           AdaptAllView(
             phone: Text(
               ''.ext.version,
