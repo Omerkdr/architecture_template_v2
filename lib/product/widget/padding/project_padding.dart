@@ -11,7 +11,7 @@ final class ProjectPadding extends EdgeInsets {
   const ProjectPadding.allSmall() : super.all(8);
 
   /// [ProjectPadding.allMedium] is 16
-  const ProjectPadding.allMedium() : super.all(15);
+  const ProjectPadding.allMedium() : super.all(16);
 
   /// [ProjectPadding.allNormal] is 20
   const ProjectPadding.allNormal() : super.all(20);
