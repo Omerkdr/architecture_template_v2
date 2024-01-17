@@ -27,6 +27,7 @@ dev_dependencies:
   envied_generator: ^0.3.0+3
   json_serializable: ^6.7.1
   flutter_gen_runner: ^5.3.2
+  vexana: ^3.5.4
 
 flutter_gen:
   output: lib/src/asset/

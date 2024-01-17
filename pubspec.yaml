@@ -58,6 +58,8 @@ dependencies:
     path: module/gen
   common:
     path: module/common
+  core:
+    path: module/core
 
 # dependency_overrides:
 #   cupertino_icons: 1.0.1
