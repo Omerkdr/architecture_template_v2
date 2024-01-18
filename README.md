@@ -1,6 +1,6 @@
 # architecture_template_v2
 
-A new Flutter project.
+clean code with teacher # vb10
 
 ## Getting Started
 
