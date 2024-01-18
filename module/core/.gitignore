@@ -10,6 +10,9 @@
 .svn/
 migrate_working_dir/
 
+*.dylib
+
+test/hive/
 # IntelliJ related
 *.iml
 *.ipr
@@ -26,4 +29,5 @@ migrate_working_dir/
 /pubspec.lock
 **/doc/api/
 .dart_tool/
+.packages
 build/
