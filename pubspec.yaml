@@ -32,7 +32,7 @@ dependencies:
   vexana: ^3.5.4
 
   #State Dependencies
-  flutter_riverpod: ^2.4.4
+  bloc: ^8.1.2
 
   #Config
 
