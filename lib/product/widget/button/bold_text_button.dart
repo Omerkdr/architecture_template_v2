@@ -10,7 +10,7 @@ final class BoldTextButton extends TextButton {
     super.key,
   }) : super(
           style: TextButton.styleFrom(
-            elevation: 20,
+            elevation: 15,
           ),
         );
 }
