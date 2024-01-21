@@ -8,10 +8,10 @@ class DialogNormalButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return NormalButton(
-      title: 'Dialog Normal Button',
+      title: 'Dialog Normal Buttons',
       onPressed: () async {
         final response =
-            await SuccessDialog.show(title: 'title', context: context);
+            await SuccessDialog.show(title: 'Baslik', context: context);
         onComplete.call(response);
       },
     );
